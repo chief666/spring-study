@@ -27,3 +27,74 @@
 2019-03-04 16:37:19  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
 2019-03-04 16:42:12  INFO ClassPathXmlApplicationContext:588 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Mon Mar 04 16:42:12 CST 2019]; root of context hierarchy
 2019-03-04 16:42:12  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2019-03-04 18:06:49  INFO ClassPathXmlApplicationContext:588 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Mon Mar 04 18:06:49 CST 2019]; root of context hierarchy
+2019-03-04 18:06:49  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2019-03-04 18:08:23  INFO ClassPathXmlApplicationContext:588 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Mon Mar 04 18:08:23 CST 2019]; root of context hierarchy
+2019-03-04 18:08:23  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2019-03-04 18:08:41  INFO ClassPathXmlApplicationContext:588 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Mon Mar 04 18:08:41 CST 2019]; root of context hierarchy
+2019-03-04 18:08:41  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2019-03-04 18:10:43  INFO ClassPathXmlApplicationContext:588 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Mon Mar 04 18:10:43 CST 2019]; root of context hierarchy
+2019-03-04 18:10:43  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2019-03-04 18:11:12  INFO ClassPathXmlApplicationContext:588 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Mon Mar 04 18:11:12 CST 2019]; root of context hierarchy
+2019-03-04 18:11:13  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2019-03-07 09:41:15  INFO ClassPathXmlApplicationContext:588 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Thu Mar 07 09:41:15 CST 2019]; root of context hierarchy
+2019-03-07 09:41:15  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2019-03-07 09:52:11  INFO ClassPathXmlApplicationContext:588 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Thu Mar 07 09:52:11 CST 2019]; root of context hierarchy
+2019-03-07 09:52:11  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2019-03-07 09:52:11  WARN XmlBeanDefinitionReader:48 - Ignored XML validation warning
+org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 67; SchemaLocation: schemaLocation 值 'http://www.springframework.org/schema/beans        http://www.springframework.org/schema/beans/spring-beans.xsd        http://www.springframework.org/schema/context         http://www.springframework.org/schema/context/spring-context.xsd        http://www.springframework.org/schema/aop/spring-aop.xsd' 必须具有偶数个 URI。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.warning(ErrorHandlerWrapper.java:99)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:392)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:452)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.storeLocations(XMLSchemaValidator.java:2347)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1754)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:740)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:380)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:614)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3135)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:880)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:118)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:77)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:194)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:258)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:128)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:133)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:619)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:520)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:144)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:85)
+	at com.spring.HelloApp.main(HelloApp.java:8)
+2019-03-07 09:53:25  INFO ClassPathXmlApplicationContext:588 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Thu Mar 07 09:53:25 CST 2019]; root of context hierarchy
+2019-03-07 09:53:25  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2019-03-07 09:53:26  WARN ClassPathXmlApplicationContext:556 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hello' defined in class path resource [spring.xml]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0': Cannot create inner bean '(inner bean)#12679d6' of type [org.springframework.aop.aspectj.AspectJMethodBeforeAdvice] while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#12679d6': Cannot resolve reference to bean 'before' while setting constructor argument; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'before' available
+2019-03-07 09:54:10  INFO ClassPathXmlApplicationContext:588 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Thu Mar 07 09:54:10 CST 2019]; root of context hierarchy
+2019-03-07 09:54:10  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2019-03-07 09:54:10  WARN ClassPathXmlApplicationContext:556 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hello' defined in class path resource [spring.xml]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0': Cannot create inner bean '(inner bean)#12679d6' of type [org.springframework.aop.aspectj.AspectJMethodBeforeAdvice] while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#12679d6': Cannot resolve reference to bean 'before' while setting constructor argument; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'before' available
+2019-03-07 09:54:51  INFO ClassPathXmlApplicationContext:588 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Thu Mar 07 09:54:51 CST 2019]; root of context hierarchy
+2019-03-07 09:54:51  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2019-03-07 09:54:52  WARN ClassPathXmlApplicationContext:556 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hello' defined in class path resource [spring.xml]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0': Cannot create inner bean '(inner bean)#12679d6' of type [org.springframework.aop.aspectj.AspectJMethodBeforeAdvice] while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#12679d6': Cannot resolve reference to bean 'before' while setting constructor argument; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'before' available
+2019-03-07 09:56:21  INFO ClassPathXmlApplicationContext:588 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Thu Mar 07 09:56:21 CST 2019]; root of context hierarchy
+2019-03-07 09:56:21  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2019-03-07 09:56:21  WARN ClassPathXmlApplicationContext:556 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hello' defined in class path resource [spring.xml]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0': Cannot create inner bean '(inner bean)#12679d6' of type [org.springframework.aop.aspectj.AspectJMethodBeforeAdvice] while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#12679d6': Cannot resolve reference to bean 'before' while setting constructor argument; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'before' available
+2019-03-07 09:58:44  INFO ClassPathXmlApplicationContext:588 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Thu Mar 07 09:58:44 CST 2019]; root of context hierarchy
+2019-03-07 09:58:44  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2019-03-07 09:58:44  WARN ClassPathXmlApplicationContext:556 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hello' defined in class path resource [spring.xml]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0': Cannot create inner bean '(inner bean)#12679d6' of type [org.springframework.aop.aspectj.AspectJMethodBeforeAdvice] while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#12679d6': Cannot resolve reference to bean 'before' while setting constructor argument; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'before' available
+2019-03-07 10:00:55  INFO ClassPathXmlApplicationContext:588 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Thu Mar 07 10:00:55 CST 2019]; root of context hierarchy
+2019-03-07 10:00:55  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]

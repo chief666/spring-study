@@ -7,13 +7,13 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
 
     <!--定义</bean>-->
-    <!--<bean id="messageServiceImpl" class="com.spring.MessageServiceImpl">-->
-        <!--<constructor-arg name="username" value="way lau"/>-->
-        <!--<constructor-arg name="age" value="30"/>-->
-    <!--</bean>-->
-    <!--<bean id="messagePrinter" class="com.spring.MessagePrinter">-->
-        <!--<constructor-arg name="service" ref="messageServiceImpl"/>-->
-    <!--</bean>-->
+    <bean id="messageServiceImpl" class="com.spring.MessageServiceImpl">
+        <constructor-arg name="username" value="way lau"/>
+        <constructor-arg name="age" value="30"/>
+    </bean>
+    <bean id="messagePrinter" class="com.spring.MessagePrinter">
+        <constructor-arg name="service" ref="messageServiceImpl"/>
+    </bean>
 
     <!--配置car的bean-->
     <bean id="car1" class="com.spring.Car">
