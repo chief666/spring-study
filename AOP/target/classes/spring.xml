@@ -5,7 +5,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/aop
-       http://www.springframework.org/schema/aop/spring-aop.xsd">
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/context">
 
     <!--配置一个Hello的bean，等同于Hello hello =new HelloImpl();-->
     <bean id="hello" class="com.spring.HelloImpl"/>
@@ -28,4 +29,14 @@
             <aop:before method="myMethod" pointcut-ref="myPointCuts"/>
         </aop:aspect>
     </aop:config>
+
+    <!--启动AspectJ支持-->
+    <aop:aspectj-autoproxy/>
+    <bean id="fighter" class="com.spring.Fighter"/>
+    <bean id="tiger" class="com.spring.Tiger"/>
+
+
+    <aop:aspectj-autoproxy/>
+    <bean id="imageCopy" class="com.spring.ImageCopy"/>
+    <bean id="imageHandler" class="com.spring.ImageHandler"/>
 </beans>
